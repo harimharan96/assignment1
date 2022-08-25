@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.page1 {
+    background: url(images/LOSANGELES\ MOUNTAINS\ copy.png) no-repeat,
+        url(images/img1.jpg) no-repeat;
+    background-position: left 410px top 240px,
+        left 0px;
+    height: 824px;
+    width: 1600px;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navDiv a {
+    text-decoration: none;
+    font-family: 'Lato';
+    color: white;
+    font-style: oblique 20deg;
+    border-bottom: 2px white solid;
+    font-size: 12px;
+    /* display: inline-block; */
+    margin-inline: 20px;
+    font-weight: 700;
+
+}
+
+#history {
+    transition: all 2s;
+}
+
+.navDiv {
+    display: flex;
+    align-items: center;
+}
+
+/* page2 */
+.page2 {
+    height: 1030px;
+    width: 1600px;
+    background: url(images/peak.png) no-repeat;
+    background-position-y: 70px;
+
+}
+
+.page nav {
+    background-color: white;
+}
+
+.navDiv2 {
+    display: flex;
+    align-items: center;
+}
+
+.navDiv2 a {
+    text-decoration: none;
+    font-family: 'Lato';
+    color: #414f6b;
+    border-bottom: 2px #414f6b solid;
+    font-size: 12px;
+    font-style: oblique 20deg;
+    font-weight: 700;
+    margin-inline: 20px;
+}
+
+.copyright {
+    text-decoration: none;
+    font-family: 'Lato';
+    color: #b0b4be60;
+
+    font-size: 12px;
+    font-style: oblique 20deg;
+    font-weight: 700;
+
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+}
+
+.logoDiv {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8;
+    padding-left: 5px;
+}
+
+.logoName {
+
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+}
+
+.page2Body {
+    margin: auto;
+    width: 940px;
+}
+
+.heading {
+    display: flex;
+}
+
+.num {
+    font-family: 'Oswald';
+    font-size: 135px;
+    font-weight: bolder;
+    color: #414f6b;
+    opacity: 0.6;
+}
+
+.name {
+    font-family: 'Oswald';
+    font-size: 32px;
+    font-weight: bolder;
+    color: #414f6b;
+    margin-top: 100px;
+    margin-left: -22px;
+}
+
+.para {
+
+    padding-inline: 75px;
+    margin-block-start: -30px;
+}
+
+.text {
+    line-height: 1.5;
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+.page2Footer {
+    height: 195px;
+    background-color: #414f6b95;
+
+    margin-block-start: 519px;
+}
+
+.slideBox {
+    width: 960px;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slideImages {
+    display: flex;
+}
+
+.slideImages img {
+    padding-inline: 10px;
+}
+
+
+.slideBtn button {
+    padding: 5px;
+    cursor: pointer;
+    margin: 3px;
+    border-radius: 100%;
+}
+
+.page3 {
+    background: url(images/img3.png) no-repeat;
+    width: auto;
+}
+
+.page3Body {
+    width: 1600;
+    padding-inline: 360px;
+    background-color: white;
+}
+
+.text2 {
+    line-height: 1.5;
+    font-family: 'Lato';
+    font-size: 16px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.nav3 {
+    background-color: #414f6b;
+    width: 1600px;
+}
+
+.mountains {
+    width: 960px;
+    margin: auto;
+    display: flex;
+
+}
+
+.mountain1 {
+    background-color: #b0b4be;
+    padding: 10px;
+}
+
+.mountain2 {
+    padding: 10px;
+}
+
+.mountain1 button {
+    padding-inline: 10px;
+    text-decoration: none;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #414f6b;
+    background-color: #b0b4be;
+    border: none;
+    border-bottom: 2px #414f6b solid;
+}
+
+.mountain2 button {
+    padding-inline: 10px;
+    text-decoration: none;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #b0b4be;
+    border: none;
+    background-color: #414f6b;
+}
+
+.pages {
+    width: 1600px;
+    display: flex;
+    overflow: hidden;
+}
+
+.page3Body2 {
+
+    height: 529px;
+}
+
+.page3Body1 {
+    background: url(images/img4.png) no-repeat;
+    width: 1600px;
+    margin-left: 860px;
+}
+
+.schedule {
+    height: 230px;
+    width: 350px;
+    background-color: #ffffff90;
+    margin-top: 130px;
+    margin-left: 350px;
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+
+.scheduleHeading {
+    font-family: "Oswald";
+    font-size: 32px;
+    font-weight: 700;
+    color: #414f6b;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.scheduleDetails {
+    font-family: "Lato";
+    font-size: 16px;
+    color: #414f6b;
+
+}
+
+table {
+    width: 100%;
+
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    text-align: center;
+}
+
+footer {
+    background-color: #414f6b;
+    height: 75px;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+}
